@@ -2,22 +2,16 @@
 
 echo "Configuring Linux..."
 
-# Check for yum, install if we don't have it
-if test ! $(which yum); then
-    echo "Installing Homebrew..."
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-fi
-
 # Install yum apps
 #CASKS=(
-    docker
-    flux
-    google-chrome
-    google-drive
-    java
-    slack
-    visual-studio-code
-)
+#    docker
+#    flux
+#    google-chrome
+#    google-drive
+#    java
+#    slack
+#    visual-studio-code
+#)
 
 #echo "Installing Linux apps..."
 #brew cask install ${CASKS[@]}
