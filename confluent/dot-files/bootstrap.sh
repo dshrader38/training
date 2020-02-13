@@ -10,17 +10,17 @@ elif [ "$OSTYPE" == "darwin"* ]; then
 fi
 
 # create dot-files symlinks 
-ln -fs ~/dot-files/.bashrc ~/.bashrc
-ln -fs ~/dot-files/.bash_profile ~/.bash_profile
-#ln -fs ~/dot-files/.bash_logout ~/.bash_logout
-#ln -fs ~/dot-files/.config ~/.config
-ln -fs ~/dot-files/.gitconfig ~/.gitconfig
-#ln -fs ~/dot-files/.gitignore_global ~/.gitignore_global 
-#ln -fs ~/dot-files/.pip ~/.pip
-#ln -fs ~/dot-files/.tmux ~/.tmux
-#ln -fs ~/dot-files/.tmux.conf ~/.tmux.conf
-#ln -fs ~/dot-files/.vim ~/.vim
-ln -fs ~/dot-files/.vimrc ~/.vimrc
+ln -fs ~/cloud/confluent/dot-files/.bashrc ~/.bashrc
+ln -fs ~/cloud/confluent/dot-files/.bash_profile ~/.bash_profile
+#ln -fs ~/cloud/confluent/dot-files/.bash_logout ~/.bash_logout
+#ln -fs ~/cloud/confluent/dot-files/.config ~/.config
+ln -fs ~/cloud/confluent/dot-files/.gitconfig ~/.gitconfig
+#ln -fs ~/cloud/confluent/dot-files/.gitignore_global ~/.gitignore_global 
+#ln -fs ~/cloud/confluent/dot-files/.pip ~/.pip
+#ln -fs ~/cloud/confluent/dot-files/.tmux ~/.tmux
+#ln -fs ~/cloud/confluent/dot-files/.tmux.conf ~/.tmux.conf
+#ln -fs ~/cloud/confluent/dot-files/.vim ~/.vim
+ln -fs ~/cloud/confluent/dot-files/.vimrc ~/.vimrc
 
 # set global git parameters
 #git config --global core.excludesfile '~/.gitignore_global'
