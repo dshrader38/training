@@ -34,3 +34,5 @@ git config --global core.excludesfile '~/.gitignore_global'
 exec bash -l
 
 echo "Bootstrapping complete"
+
+exit 0
