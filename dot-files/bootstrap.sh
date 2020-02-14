@@ -22,7 +22,7 @@ ln -fs ~/cloud/dot-files/.vim ~/.vim
 ln -fs ~/cloud/dot-files/.vimrc ~/.vimrc
 
 # set global git parameters
-git config --global core.excludesfile '~/.gitignore_global'
+#git config --global core.excludesfile '~/.gitignore_global'
 
 # Fetch tmux submodules
 # git submodule init && git submodule update
