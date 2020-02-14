@@ -9,6 +9,6 @@ PACKAGES=(
 )
 
 echo "Installing Linux packages..."
-dnf install ${PACKAGES[@]} -y
+sudo dnf install ${PACKAGES[@]} -y
 
 echo "Linux Complete"
