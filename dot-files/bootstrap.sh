@@ -25,7 +25,7 @@ ln -fs ~/cloud/dot-files/.vimrc ~/.vimrc
 git config --global core.excludesfile '~/.gitignore_global'
 
 # Fetch tmux submodules
-git submodule init && git submodule update
+# git submodule init && git submodule update
 
 # install tmux plugins (can be automated)
 # <ctrl> + j + I
