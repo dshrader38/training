@@ -1,4 +1,0 @@
-*.log
-/.pip/
-/.tmux/resurrect/
-/.tmux/plugins/
