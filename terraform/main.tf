@@ -3,6 +3,11 @@ terraform {
   required_version = ">= 0.12"
 }
 
+provider "aws" {
+  version = "~> 2.0"
+  region  = "us-west-2"
+}
+
 #owner = 641939414755
 #instance-type = t3a.micro
 #availability zone = us-west-2a
@@ -10,7 +15,10 @@ terraform {
 #Root device type = ebs
 #EBS-optimized = true
 
-
+# Create a VPC
+#resource "aws_vpc" "example" {
+#  cidr_block = "10.0.0.0/16"
+#}
 
 resource "aws_instance" "example" {
   ami           = data.aws_ami.ubuntu.id
