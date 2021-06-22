@@ -3,6 +3,8 @@ sudo: required
 services:
   - docker
 
+before_script:
+  - cd docker-react
 before_install:
   - docker build -t shrader/docker-react -f Dockerfile.dev .
 
